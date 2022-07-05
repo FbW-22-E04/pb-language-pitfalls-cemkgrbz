@@ -2,11 +2,9 @@
 // NaN: Not a Number 
 //1.1
 
-const numberCheck = 'hello';
-console.log(isNaN(numberCheck)); //true
+console.log(isNaN('hello')); //true
 
-const numberCheck2 = 3;
-console.log(isNaN(numberCheck2)); //false
+console.log(isNaN(3)); //false
 
 console.log(typeof NaN) //number
 
